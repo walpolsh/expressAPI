@@ -22,6 +22,7 @@ app.use("/users", routes.user);
 app.use("/messages", routes.message);
 
 app.get("/", (req, res) => {
+  cd;
   return res.send("Hey welcome");
 });
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
